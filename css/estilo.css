@@ -1,0 +1,53 @@
+ /*
+        div {
+            margin: 20%;
+        }
+
+
+            Utilizando o ID como seletor:
+            Utilize ( # ) seguida do nome deste seletor para utilizar.
+            Ex: #container{ ... }
+        */
+
+ #container {
+     /*
+            Técnicas de aplicar valores para o BOX!
+            
+            1 - Utilizando a técnica Sentido Horário, com todos os valores:
+            TOP / RIGHT / BOTTOM / LEFT
+            Ex: 
+            margin: top right bottom left;
+            margin: 10px 20px 10px 20px;
+
+            2 - Utilizando a técnica FAST HAND
+            TOP / BOTTOM   LEFT / RIGHT
+            Ex: 
+            margin: [top bottom] [left right];
+            margin: 10px 20px;
+
+            Obs: Estas técnicas podem ser utilizadas com a maioria das propriedades:
+            padding, border etc;
+            */
+     margin: 0% 20%;
+     padding: 10px;
+
+ }
+
+ /*
+    Estilizando seletores CLASS.
+    Utilize com o ( . ) seguido do nome do seletor.
+    Ex: .text-format{ ... }
+ */
+
+ .text-format {
+     color: #a52a2a;
+     font-size: 20px;
+     letter-spacing: 2px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .ditado {
+     font-weight: bold;
+     color: #7fff00;
+
+ }
