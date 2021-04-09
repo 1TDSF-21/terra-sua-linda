@@ -1,0 +1,20 @@
+#corpo {
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #444;
+}
+#container {
+    max-width: 1128px;
+}
+a {
+    color: #00ccff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
