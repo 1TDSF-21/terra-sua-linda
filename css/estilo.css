@@ -1,0 +1,34 @@
+#container {
+    /*
+    Aplicar valores para a propriedade para o BOX!
+    1 - Utilizando a técnica sentido Horário, com todos os valores: 
+    TOP / RIGHT / BOTTOM / LEFT
+    Ex: margin: top right bottom left;
+    Ex: margin: 10px 20px  10px  20px;
+    
+    2 - Utilizando a técnica FAST HAND
+    TOP/BOTTOM  LEFT/RIGHT
+    Ex:
+    margin: [top bottom] [right left]
+    margin:     10%          20%
+    
+    OBS: Estas técnicas podem ser utilizadas com a
+    maioria das propriedades: padding border etc
+    */
+    margin: 0% 20%;
+    padding: 20px;
+}
+
+/*
+    Estilizando seletores CLASS
+    Utilize com o ( . ) seguido do nome do seletor 
+    EX: .text-format {...}
+*/
+
+.text-format {
+    color:#a52a2a;
+    font-size: 20px; 
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
