@@ -4,13 +4,15 @@ body {
     color: #444;
 }
 
-#container {max-width: 1128px;}
+.container {max-width: 1128px;}
 
 a {
     color: #00ccff;
-    list-style: none;
+    text-decoration: none;
     font-size: 12px;
 }
+
+a:hover {text-decoration: underline;}
 
 p {font-size: 20px;}
 
