@@ -15,6 +15,83 @@ a {
 p {
     font-size: 20px;
 }
+
 a:hover{
     text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 48px;
+    margin: 40px 0px;
+    
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.item {
+    float:right;
+    font-size: 14px;
+    display:inline;
+    margin-left: 12px;
+    margin-left: 24px;
+    list-style: none;
+}
+.item-link {
+    font-size: 20px;
+    color:#999;
+}
+.banner {
+    height: 100%;
+    margin-bottom: 35px;
+    position:relative;
+}
+.box {
+    width: 500px;
+    padding: 30px 48px;
+    position:absolute;
+    top:48px;
+    background-color:rgba(0, 0,0, 0.5);
+}
+
+#box-parag {
+    font-size: 20px;
+    color:#fff;
+}
+
+#box-titulo {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight:200;
+    color:#fff
+}
+
+.rodape {
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+#rodape-parag {
+    margin: 0;
+}
+
+#rodape-small {
+    font-size: 18px;
+}
+
+#rodape-link {
+    font-size: 15px;
 }
